@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+}
+
+ul {
+	text-align: left;
+	margin: 20px;
+	width: 50%;
+	padding: 0;
+}
+
+ul:last-child {
+	text-align: right;
+	width: 50%;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 2em;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.triangle1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 300px 50vw 0 0;
+	border-color: #007bff transparent transparent transparent;
+	display: inline-block;
+	position: relative;
+}
+
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 50vw 300px 0;
+	border-color: transparent #007bff transparent transparent;
+	display: inline-block;
+	position: absolute;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+
+
+
+
